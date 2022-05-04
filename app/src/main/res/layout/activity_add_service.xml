@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:persistentDrawingCache="scrolling"
+        android:scrollbars="vertical">
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/addService" />
+
+        <EditText
+            android:id="@+id/serviceNameAddPage"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:ems="10"
+            android:hint="Serivce Name"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/hourlyRateAddPage"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:ems="10"
+            android:hint="Hourly Rate (input as double type)"
+            android:inputType="numberDecimal"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView3"
+            android:layout_width="match_parent"
+            android:layout_height="611dp"
+            android:persistentDrawingCache="scrolling" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

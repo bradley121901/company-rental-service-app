@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Byblos Project</string>
+
+    <string name="user_login">Username</string>
+    <string name="user_password">Password</string>
+    <string name="button_start_page">LOG IN</string>
+    <string name="welcome_demo">Welcome firstname! You are logged in as "role"</string>
+    <string name="button_signUp">Sign Up</string>
+    <string name="header">Sign Up</string>
+    <string name="button_customer">Sign Up as Customer</string>
+    <string name="button_employee">Sign Up as Employee</string>
+    <string name="deleteUsers">Delete Users</string>
+    <string name="addServices">Add Services</string>
+    <string name="editService">Edit Services</string>
+    <string name="deleteServices">Delete Services</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="customerFirstName">Customer First Name</string>
+    <string name="customerLastName">Customer Last Name</string>
+    <string name="customerDOB">Customer Date of Birth</string>
+    <string name="customerAddress">Customer Address</string>
+    <string name="customerEmail">Customer Email</string>
+    <string name="addService">Add Service</string>
+    <string name="branchEmployees">Branch Employees</string>
+    <string name="customers">Customers</string>
+    <string name="editService2">Edit Service</string>
+    <string name="deleteService">Delete Service</string>
+
+</resources>
